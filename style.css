@@ -109,6 +109,7 @@ text-align: center;
 .div1{
     grid-column: 1 / 2; 
     grid-row: 1 / 4;
+    height: 700px;
 }
 
 .div2, .div3, .div4{
@@ -173,6 +174,10 @@ footer{
     opacity: 1;
 }
 
+.div1, .div2, .div3, .div4{
+    position: relative;
+}
+
 .overlay h3 {
     margin: 0;
 }
@@ -182,4 +187,47 @@ footer{
     font-weight: normal;
     margin-top: 5px;
     max-width: 70%;
+}
+
+.fa-home{
+    margin: 10px;
+    font-size: 20px;
+}
+
+.fa-user-group{
+    margin: 10px;
+    font-size: 15px;
+}
+
+.fa-phone{
+    margin: 10px;
+    font-size: 15px;
+}
+
+.fa-list{
+    margin: 10px;
+    font-size: 15px;
+}
+
+.btn-outline-success{
+    padding-left: 50px;
+}
+
+.fa-magnifying-glass{
+    margin: 10px;
+    font-size: 15px;
+}
+
+
+
+.texto-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: white; 
+    font-size: 24px; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px;
+    border-radius: 5px;
 }
