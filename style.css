@@ -213,11 +213,16 @@ footer{
     padding-left: 50px;
 }
 
-.fa-magnifying-glass{
-    margin: 10px;
-    font-size: 15px;
-}
+.btn-outline-success {
+    padding-left: 10px; /* Ajusta el espacio interno izquierdo */
+  }
+  
 
+  
+  .fas.fa-search {
+    margin-left: 0; /* Elimina cualquier margen izquierdo del ícono */
+  }
+  
 
 
 .texto-overlay {
