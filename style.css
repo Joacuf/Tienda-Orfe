@@ -112,10 +112,14 @@ text-align: center;
     height: 700px;
 }
 
-.div2, .div3, .div4{
-    grid-column: 2 / 3; 
+.div2, .div3, .div4 {
+    grid-column: 2 / 3;
+    height: 228.5px;
+    overflow: hidden;
+    position: relative; 
     border-radius: 10px;
 }
+
 
 .div2{
     grid-row: 1 / 2; 
@@ -214,25 +218,44 @@ footer{
 }
 
 .btn-outline-success {
-    padding-left: 10px; /* Ajusta el espacio interno izquierdo */
-  }
-  
+    padding-left: 10px; 
+}
 
-  
-  .fas.fa-search {
-    margin-left: 0; /* Elimina cualquier margen izquierdo del ícono */
-  }
-  
+
+
+.fas.fa-search {
+    margin-left: 0;
+}
+
 
 
 .texto-overlay {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); 
-    color: white; 
-    font-size: 24px; 
-    background-color: rgba(0, 0, 0, 0.5); 
-    padding: 10px;
-    border-radius: 5px;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    line-height: 1.5;
 }
+
+.texto-overlay span {
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 1px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    transform: scaleY(1.4);
+}
+
+
+
+
+#descuento {
+    font-size: 80px;
+    
+}
+
